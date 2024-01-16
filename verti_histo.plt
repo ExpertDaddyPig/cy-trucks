@@ -11,7 +11,7 @@ set style data boxes
 set xlabel 'ID du trajet'
 set ylabel 'Longueur du trajet (en km)'
 set xrange [0:*]
-set yrange [*:*]
+set yrange [0:*]
 set offsets 0.75, -0.25, 0, 0
 
 # Utiliser des espaces comme séparateurs de colonnes
