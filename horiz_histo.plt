@@ -2,10 +2,12 @@ reset
 set terminal png size 800,800
 width = 0.4
 # Titre du graphique
-set title "Histogramme du nombre de trajets par conducteur"
+set title title_option
 
 # Style de l'histogramme
 set style fill solid border -1
+set xlabel xlabel_option
+set ylabel 'Conducteurs'
 set xrange [*:*]
 set yrange [0:*]
 set offsets 0,0,0.5-width/2.,0.5
